@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-right: 50px;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color:  rgb(24, 173, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+
+.help{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: rgb(24, 173, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 15%;
+}
+
+
+.user3{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h1{
+    margin-top: 5%;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 60%;
+}
+
+/*habitaciones*/
+.botones{
+    display: flex;
+}
+
+.create{
+    cursor: pointer;
+    margin: 5% 5% 5% 5%;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to left, transparent 50%, rgb(24, 173, 11) 50%) no-repeat right / 200%;
+    border: black solid 5px;
+}
+
+.create:hover{
+    background-position: left;
+    transition: background-position 0.3s ease;
+}
+
+.txtcrear{
+    margin-top: 5%;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus{
+    margin-top: 25%;
+}
+
+.new{
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 5%;
+    background: linear-gradient(to right, transparent 50%, rgb(24, 173, 11) 50%) no-repeat left / 200%;
+    border: black solid 5px;
+}
+
+.new:hover{
+    background-position: right;
+    transition: background-position 0.3s ease;
+}
+
+.hotel1{
+    margin-top: 10%;
+}
